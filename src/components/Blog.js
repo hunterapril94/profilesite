@@ -1,6 +1,6 @@
 import { blogposts } from "../helpers"
 export default function Blog() {
-  const posts = blogposts.forEach(post => {
+  const posts = function(post) {
     console.log(post)
     return(
       <div>
@@ -8,8 +8,8 @@ export default function Blog() {
       <p>{post.text}</p>
       </div>
     )
-  })
+  }
   return <div>
-  {posts}
+  {blogposts.map(post => posts(post))}
   </div>
 }

@@ -54,38 +54,43 @@ const projects = [
     link: "https://github.com/hunterapril94/lotide",
   },
 ]
- const workExperience = {
-   "Lighthouse Labs": {
+ const workExperience = [
+  {
+    company: "Lighthouse Labs",
      position: "Apprentice Mentor",
      logo: "https://www.lighthouselabs.ca/assets/lighthouselabs-logo-d5df6d383f7466b06a64de9561fd537493502eafe78bbf3bcd3de82884e5dd85.png",
      years: "Mar 2022 - Present",
      total_time: "1 mo"
    },
-   "CommonWealth One Federal Credit Union": {
+  {
+    company: "CommonWealth One Federal Credit Union",
      position: "Retail Sales and Service Specialist",
      logo: "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/052013/commonwealthonefcu-converted.png?itok=gtpSD8qR",
      years: "Jun 2018 - Apr 2021",
      total_time: "2 yr 11 mo"
    },
-   "BYU Catering": {
+   {
+    company: "BYU Catering",
      position: "Receiver",
      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/BYU_Cougars_logo.svg/1200px-BYU_Cougars_logo.svg.png",
      years: "Apr 2017 - Oct 2017",
      total_time: "7 mo"
    },
-   "Utah Community Credit Union": {
+   {
+    company:"Utah Community Credit Union",
      position: "Assistant Vault Teller",
      logo: "https://hubspot.mx.com/hubfs/UCCU%20Logos_Full%20Logo_full%20color.png",
      years: "Apr 2016 - Jan 2017",
      total_time: "10 mo"
    },
-  "Ross Stores, Inc": {
+  {
+    company: "Ross Stores, Inc",
     position: "Front End Supervisor",
     logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Ross_Stores_logo.svg/2560px-Ross_Stores_logo.svg.png",
     years: "Apr 2015 - Aug 2015",
     total_time: "5 mo"
   },
- }
+]
  const blogposts = [
   { title: 'On Estimating Delivery Date: an adventure in freelancing',
     text: 'will write this lateradskjl;asdkljf;saldkfjl;askdfj;lksdjfl;kjasd;lfkja;lsdkfj;laksdjl;fkjasd;lfkja;lsdkfjl;asdkfj;'
