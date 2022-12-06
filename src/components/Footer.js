@@ -26,8 +26,6 @@ export default function Footer() {
         </button>
       </a>
     </div>
-
-  <h4>Artwork by Chelsie Ring find her on FineArtAmerica.com</h4>
 </footer>
   )
 }

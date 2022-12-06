@@ -13,8 +13,8 @@ $font-family-sans-serif: 'Raleway', sans-serif;
   font-family: 'Raleway', sans-serif;
 }
 body {
-  background-image: url('https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/1/good-vibrations-chelsie-ring.jpg');
-  background-size: 100% 100%;
+  background: linear-gradient(180deg, rgba(254,177,125,1) 0%, rgba(103,104,171,1) 50%, rgba(13,36,50,1) 100%);
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 #myName {
@@ -22,8 +22,7 @@ body {
   font-weight: bold;
 }
 header {
-  background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
-  background-color: $dark;
+  background-color: rgba(0,0,0,0.65);
   height: 100px;
   display: flex;
   align-items: center;
@@ -31,7 +30,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-
+  
 }
 .picture {
   margin-top: 100px;
@@ -55,7 +54,7 @@ header {
   padding: 10px;
   border: 2px solid $dark;
   flex-basis: auto;
-
+  
 }
 .icons {
   display:flex;
@@ -90,8 +89,7 @@ h2 {
   background-color: $success;
 }
 footer {
-  background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
-  background-color: $dark;
+  background-color:rgba(0,0,0,0.65);
   height: 100px;
   display: flex;
   align-items: center;
@@ -139,24 +137,33 @@ h2 a {
   // height: 150px;
   align-content: center;
 }
-.workExperience .card-body {
-  margin-left: 170px;
-}
-.car div.workExperience {
-  height: 100%;
-}
-.car div span {
-  display: inline-block;
-  height: 100%;
-  width: 20px;
-}
+// .workExperience .card-body {
+  //   margin-left: 170px;
+  // }
+  // .car div.workExperience {
+    //   height: 100%;
+    // }
+    // .car div span {
+      //   display: inline-block;
+      //   height: 100%;
+//   width: 20px;
+// }
 .car.workExperience img {
   width:150px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.card-img-top.about {
+  width: 300px;
+  align-self: center;
+  border-radius: 100%;
 }
 
 
 .car {
-  margin: 5%;
+  margin: auto;
+  margin-top: 5%;
   width: 75%;
   background-color: rgba(0, 0, 0, .3);
 }
@@ -165,6 +172,12 @@ ul {
 }
 .index {
   padding-top: 100px;
+}
+.blog {
+  margin-bottom: 120px;
+}
+.blog .card-body {
+  margin: auto;
 }
 @media screen and (max-width: 800px)  {
   .workExperience-image {
