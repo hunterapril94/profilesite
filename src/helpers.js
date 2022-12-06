@@ -1,7 +1,7 @@
 const projects = [
   { title: "Hackipups",
     description: "Self-care virtual pet made for Hack or Treat 2",
-    img: "images/hackipups.jpg",
+    img: "hackipups.jpg",
     technologies: "React, React-router, Recoil",
     link: "https://github.com/ulisesvina/hackipups"
   },

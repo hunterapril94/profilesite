@@ -9,7 +9,7 @@ export default function Blog() {
       </div>
     )
   }
-  return <div className="blog">
+  return <div id="blog">
     <h3>Blog</h3>
   {blogposts.map(post => posts(post))}
   </div>

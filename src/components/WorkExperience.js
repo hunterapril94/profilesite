@@ -2,7 +2,7 @@ import { workExperience } from "../helpers"
 export default function WorkExperience() {
   const experience = function(job) {
     return(
-      <li>
+      <li key={job.company}>
           <div className="car workExperience">
             <div className="workExperience">
               <span></span>
@@ -18,7 +18,7 @@ export default function WorkExperience() {
     )
   }
   return (
-    <div>
+    <div id='workExperience'>
       <h3>Work Experience</h3>
       <ul className="list-group-primary">
         {workExperience.map(job => experience(job))}

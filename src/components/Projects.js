@@ -19,7 +19,7 @@ export default function Projects() {
     )
   }
   return (
-    <div>
+    <div id='projects'>
       <h3>Projects</h3>
       <ul className="list-group-primary">
         {projects.map(item => project(item))}
